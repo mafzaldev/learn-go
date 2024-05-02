@@ -23,7 +23,7 @@ func printMe(val string) {
 func intDivision(a int, b int) (int, int, error) {
 	var err error
 	if b == 0 {
-		err = errors.New("Division by zero")
+		err = errors.New("division by zero")
 		return 0, 0, err
 	}
 	return a / b, a % b, err
